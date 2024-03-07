@@ -18,7 +18,7 @@ def detect(y, x, land, visited, m):
         m.add(x)
         #좌우상하로 좌표를 이동해 탐지
         for move in moves:
-            detect(y+move[0], x+move[1], land, visited, m)
+            detect(y+move[0], x+move[1], land, visited, m) 
         
 def solution(land):
     global oil
