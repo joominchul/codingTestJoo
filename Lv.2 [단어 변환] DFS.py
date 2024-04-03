@@ -3,7 +3,7 @@ answer = [51] #변환할 수 없는 경우. 변환할 수 있는 최댓값이 50
 def check_change(begin, word):#변환할 수 있는지 확인
     length = len(begin)
     check = 0
-    for i in range(length):
+    for i in range(length): 
         if begin[i] != word[i]:
             check+=1
         if check > 1:
