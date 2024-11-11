@@ -1,5 +1,5 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/12907
-def solution(n, money):
+def solution(n, money): 
     #동적 프로그래밍을 위한 경우의 수 저장
     #0~n까지 각 값을 만들 수 있는 경우의 수
     #0원을 만들 수 있는 경우의 수는 1가지임.
